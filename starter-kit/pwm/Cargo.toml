@@ -1,12 +1,12 @@
 [package]
-name = "pwa"
+name = "pwm"
 version = "0.1.0"
 authors = ["Anders Lindhardt Madsen <andem20@student.sdu.dk>"]
 edition = "2021"
 license = "MIT OR Apache-2.0"
 
 [[bin]]
-name = "pwa"
+name = "pwm"
 test = false
 bench = false
 
