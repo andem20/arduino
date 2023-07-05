@@ -1,5 +1,5 @@
-blink
-=====
+starter-kit
+===========
 
 Rust project for the _Arduino Uno_.
 
