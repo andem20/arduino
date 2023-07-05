@@ -1,12 +1,3 @@
-#![no_std]
-#![no_main]
+fn main() {
 
-use panic_halt as _;
-
-#[arduino_hal::entry]
-fn main() -> ! {
-
-    loop {
-        
-    }
 }
