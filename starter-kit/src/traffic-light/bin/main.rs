@@ -1,14 +1,17 @@
 #![no_std]
 #![no_main]
 
-use arduino_hal::{port::{Pin, mode::Output}, hal::port::{PB2, PD7, PD4, Dynamic}};
+use arduino_hal::{
+    hal::port::{Dynamic, PD7},
+    port::{mode::Output, Pin},
+};
 use panic_halt as _;
 
 #[arduino_hal::entry]
 fn main() -> ! {
     let dp = arduino_hal::Peripherals::take().unwrap();
     let pins = arduino_hal::pins!(dp);
-    
+
     let mut red_led = pins.d10.into_output().downgrade();
     let mut yellow_led = pins.d7.into_output();
     let mut green_led = pins.d4.into_output().downgrade();
