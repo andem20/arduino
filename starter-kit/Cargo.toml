@@ -41,3 +41,7 @@ path = "src/pwm/bin/main.rs"
 [[bin]]
 name = "traffic-light"
 path = "src/traffic-light/bin/main.rs"
+
+[[bin]]
+name = "led-chasing"
+path = "src/led-chasing/bin/main.rs"
