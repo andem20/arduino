@@ -45,3 +45,7 @@ path = "src/traffic-light/bin/main.rs"
 [[bin]]
 name = "led-chasing"
 path = "src/led-chasing/bin/main.rs"
+
+[[bin]]
+name = "led-button"
+path = "src/led-button/bin/main.rs"
