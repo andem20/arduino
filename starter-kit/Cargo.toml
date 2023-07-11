@@ -49,3 +49,7 @@ path = "src/led-chasing/bin/main.rs"
 [[bin]]
 name = "led-button"
 path = "src/led-button/bin/main.rs"
+
+[[bin]]
+name = "passive-buzzer"
+path = "src/passive-buzzer/bin/main.rs"
